@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
+
+gem 'coffee-script-source', '1.8.0'
+
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
