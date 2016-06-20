@@ -51,4 +51,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
   gem 'capybara', '~> 2.7', '>= 2.7.1'
+  gem 'factory_girl_rails', '~> 4.7'
 end
