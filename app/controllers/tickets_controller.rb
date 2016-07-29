@@ -21,6 +21,10 @@ class TicketsController < ApplicationController
 	def show
 	end
 	
+	
+	def set_ticket 
+		@ticket = @project.tickets.find(params[:id])
+	end
 
 	private
 	
@@ -32,8 +36,5 @@ class TicketsController < ApplicationController
 		@project = Project.find(params[:project_id])
 	end
 
-	def set_ticket 
-		@ticket = @project.tickets.find(params[:id])
-	end
 
 end
